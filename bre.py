@@ -5,7 +5,7 @@ import requests
 class MyClient(discord.Client):
     #Wenn eingeloggt
     async def on_ready(self):
-        print("Der Bre ist am Start!! 328 ist die Gang!!")
+        print("Der Bre ist am Start!!")
        
 
     #Wenn Nachricht
