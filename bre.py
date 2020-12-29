@@ -37,7 +37,7 @@ class MyClient(discord.Client):
             await message.channel.send("Edwin: " + lanes[0] + "\nDennis: " + lanes[1] + "\nJoschka: " + lanes[2] + "\nTim: " + lanes[3] + "\nLeon: " + lanes[4])
         
         if message.content.startswith("bre"):
-            await message.channel.send("Ich möchte nicht \"bre\" genannt werden, nenn mich bitte \"rama\" und ich erfülle dir deine Wünsche! 328 ist die Gang!")
+            await message.channel.send("Ich möchte nicht \"bre\" genannt werden, nenn mich bitte \"rama\" und ich erfülle dir deine Wünsche!")
         
         if message.content.startswith("rama btc"):
             response = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
